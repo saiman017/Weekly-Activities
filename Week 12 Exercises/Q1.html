@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="authir" content="Saiman">
+    <title>Week 12 Task1</title>
+</head>
+<body onload="clock()">
+    <script>
+         d = new Date();
+        tday = d.getDay();// day 0-6
+        tdate = d.getDate();// todays date 19
+        tmonth = d.getMonth();//today month july
+        tyear = d.getFullYear();// 4 digits year
+
+        document.write(tdate +"-"+ tmonth+"-"+ tyear +"  ");
+        var timer; // current timer if started
+        function clock() {
+        if (timer)
+        return;
+        timer = setInterval(update, 1000);
+        update(); 
+        }
+
+        //for Timer
+        function update() {
+        var date = new Date();
+
+        var hours = date.getHours();
+        if (hours < 10)
+        {
+            hours ='0'+hours;
+        }
+        document.getElementById("h").innerHTML = hours;
+
+        var minutes = date.getMinutes();
+        if (minutes < 10)
+        {
+           minutes ='0'+minutes;
+        }   
+
+        document.getElementById("m").innerHTML = minutes;
+        var seconds = date.getSeconds();
+        if (seconds < 10)
+        {
+            seconds ='0'+seconds;
+        }
+        document.getElementById("s").innerHTML = seconds;
+        }
+    </script>
+
+<script>
+
+</script>
+
+<div id="clock">
+    <span id="h">hh</span>:<span id="m">mm</span>:<span id="s">ss</span>
+</div>
+
+</body>
+</html>

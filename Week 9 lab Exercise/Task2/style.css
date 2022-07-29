@@ -1,0 +1,29 @@
+p:first-letter{
+    font-size: 200%;
+}
+.income{
+    background-color: #cccccc;
+}
+
+.expenses{
+    background-color: #ff0000;
+}
+.profit{
+    background-color: #ffff00;
+}
+#budgetsummaer{
+    background-color: #ffffff;
+    border:dotted;
+}
+body{
+    font-family:Verdana, Arial, Helvatica, sans-serif;
+    font-size: 12px;
+    background-color:#CCFFFF;
+}
+
+h1{
+    font-size:14px;
+    font-variant :small-caps;
+    color:#ff0000;
+    background-color:#00ff00;
+}

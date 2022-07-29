@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Saiman">
+    <title>Week 12 Exercise 5</title>
+</head>
+<body>
+    <script>
+        function Num(){
+            a = isNaN(document.form.text.value);
+            if(a){
+                alert("Entered value is NaN");
+            }
+            else{
+                alert("Entered value is Integer");
+            }
+        }
+        function matchPassword() {  
+          var pw1 = document.getElementById("pswd1");  
+          var pw2 = document.getElementById("pswd2");  
+          if(pw1 != pw2)  
+          {   
+            alert("Passwords did not match");  
+          } else {  
+            alert("Password created successfully");  
+          }  
+        }  
+    </script>
+    <form name="form">
+        <h3>For NaN check</h3>
+        <input type="text" name="text" placeholder="text"> 
+        <button onclick="Num()">Click here</button><br>
+        <h3>For password check</h3>
+        <input type="password" name="Password" id = "pswd1" placeholder="Password"><br>
+        <input type="password" name="Confrim password" id = "pswd2" placeholder="Confirm password">
+        <button onclick="matchPassword()">Click here</button>
+    </form>
+
+    
+    
+</body>
+</html>

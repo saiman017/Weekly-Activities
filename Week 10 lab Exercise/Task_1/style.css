@@ -1,0 +1,63 @@
+.col1{
+    width: 150px;
+    height: 45px;
+    border: 1px;
+    position: relative;
+    left: 0;
+    top: 0px;
+}
+
+
+ .col2{
+    width: 100px;
+    height: 45px;
+    position: relative;
+    left: 150px;
+    top: -45px;
+}
+.col3{
+    width: 100px;
+    height: 45px;
+    border: 1px;
+    position: relative;
+    left: 250px;
+    top: -90px;
+} 
+
+.blue{
+    width: 150px;
+    height: 200px;
+    background-color: aqua;
+    border: 1px;
+    position:relative;
+    left:-5px;
+    top:-115px;
+}
+
+.yellow1{
+    width:100px;
+    height:50px;
+    background-color:yellow;
+    position:relative;
+    left:147px;
+    top: -315px;
+}
+
+.red{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    border: 1px;
+    position: relative;
+    left: 247px;
+    top: -365px;   
+}
+
+.green{
+    width: 200px;
+    height:148px;
+    background-color: green;
+    position: relative;
+    top:-364px;
+    border: 1px;
+    left: 146px; }
